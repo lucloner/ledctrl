@@ -9,6 +9,14 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
+      <style type="text/css">
+          .bigbutton {
+              border: 1px solid black;
+              padding: 6em 8em;
+              text-align: center;
+              font-size: 2em;
+          }
+      </style>
     <title>Lu's 简易灯控</title>
   </head>
   <body>
@@ -33,11 +41,11 @@
       }
     %>
     <a href="index.jsp?cmd=DLR11111111ZDRR11111111Z">
-      <button>开灯</button>
+        <button class="bigbutton">开灯</button>
     </a>
     &nbsp;
     <a href="index.jsp?cmd=DLR00000000ZDRR00000000Z">
-      <button>关灯</button>
+        <button class="bigbutton">关灯</button>
     </a>
   </body>
 </html>
