@@ -71,7 +71,7 @@
 
         <script language="javascript" type="text/javascript">
             function doled() {
-                var value = 0;
+                var value = 65536;
                 for (i = 1; i < 15; i++) {
                     var c = document.getElementById("led" + i);
                     if (c.checked) {
@@ -80,6 +80,7 @@
                 }
                 // alert(value.toString(2));
                 var cmdstr = value.toString(2);
+                cmdstr = cmdstr.substr(1);
                 window.location.href = "index.jsp?cmd=DLR" + cmdstr.substr(0, 8) + "ZDRR" + cmdstr.substr(8) + "Z";
             }
         </script>
