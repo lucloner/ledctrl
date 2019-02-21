@@ -88,5 +88,7 @@
         <button class="bigbutton" onclick=doled()>开</button>
     </div>
     <BR/>
+    <iframe width="100%" height="1080" scrolling=auto src="http://10.88.88.13:6080/"></iframe>
+    <BR/>
   </body>
 </html>
